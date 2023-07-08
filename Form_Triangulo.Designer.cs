@@ -138,6 +138,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form_Triangulo";
             this.Text = "Form_Triangulo";
+            this.Load += new System.EventHandler(this.Form_Triangulo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
