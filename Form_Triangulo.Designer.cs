@@ -102,12 +102,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(77, 230);
+            this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(77, 224);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 42);
             this.button1.TabIndex = 7;
             this.button1.Text = "Calcular";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
