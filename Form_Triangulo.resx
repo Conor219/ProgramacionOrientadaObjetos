@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label4.Text" xml:space="preserve">
-    <value>Escriba un programa que capture tres longitudes y determine si forman o no un triángulo. Si es un triángulo, determine de qué tipo de triángulo se trata entre:
-equilátero (Si tiene tres lados iguales), isósceles (si tiene dos lados iguales) o escaleno si tiene tres lados desiguales). Considere que para formar
+    <value>Escriba un programa que capture tres longitudes y determine si forman o no un triángulo. Si es un triángulo, determine de qué tipo de triángulo se trata
+entre: equilátero (Si tiene tres lados iguales), isósceles (si tiene dos lados iguales) o escaleno si tiene tres lados desiguales). Considere que para formar
 un triángulo se requiere que: "el lado mayor sea menor o igual que la suma de los otros dos lados".</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
