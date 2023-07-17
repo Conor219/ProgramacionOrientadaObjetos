@@ -37,7 +37,31 @@ namespace ProgramacionOrientadaObjetos
                 int lado1 = Convert.ToInt32(textBox1.Text);
                 int lado2 = Convert.ToInt32(textBox2.Text);
                 int lado3 = Convert.ToInt32(textBox3.Text);
-                MessageBox.Show((lado1 + lado2 + lado3).ToString(), "Resultado");
+                //MessageBox.Show((lado1 + lado2 + lado3).ToString(), "Resultado");
+                if (lado1 > 0 && lado2 > 0 && lado3 > 0)
+                {
+                   int mayor = lado1;
+
+                    if (mayor < lado2) mayor = lado2;
+
+
+                    if (mayor < lado3) mayor = lado3;
+                    
+
+                    if (mayor <= (lado1 + lado2 + lado3 - mayor))
+                    {
+                        MessageBox.Show("Con estas medidas SÍ es posible formar un triángulo");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Con estas medidas NO es posible formar un triágunlo");
+                    }
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Con esas medidas no es posible formar un triángulo", "Error");
+                }
             }catch(Exception Error) {
                 MessageBox.Show("Error", "Errorsito", MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
@@ -47,6 +71,11 @@ namespace ProgramacionOrientadaObjetos
         }
 
         private void Form_Triangulo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
