@@ -26,5 +26,20 @@ namespace ProgramacionOrientadaObjetos
         {
 
         }
+
+        private void práctica1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form_Triangulo().ShowDialog();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void práctica2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form_Operaciones().ShowDialog();
+        }
     }
 }
