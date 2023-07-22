@@ -34,10 +34,10 @@ namespace ProgramacionOrientadaObjetos
                 float multiplicacion = dato1 * dato2;
                 float division = dato1 / dato2;
 
-                label5.Text = dato1 + "+" + dato2 + "=" + suma + "\n";
-                label5.Text += dato1 + "-" + dato2 + "=" + resta + "\n";
-                label5.Text += dato1 + "*" + dato2 + "=" + multiplicacion + "\n";
-                label5.Text += dato1 + "/" + dato2 + "=" + division + "\n";
+                label5.Text = dato1 + " + " + dato2 + " = " + suma + "\n";
+                label5.Text += dato1 + " - " + dato2 + " = " + resta + "\n";
+                label5.Text += dato1 + " * " + dato2 + " = " + multiplicacion + "\n";
+                label5.Text += dato1 + " / " + dato2 + " = " + division + "\n";
             }
             catch (Exception Error)
             {
