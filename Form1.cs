@@ -46,5 +46,15 @@ namespace ProgramacionOrientadaObjetos
         {
 
         }
+
+        private void práctica3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Formula_general().ShowDialog();
+        }
+
+        private void práctica4FibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form_Fibonacci().ShowDialog();
+        }
     }
 }

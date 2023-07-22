@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formula_general.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formula_general.Designer.cs">
+      <DependentUpon>Formula_general.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Fibonacci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Fibonacci.Designer.cs">
+      <DependentUpon>Form_Fibonacci.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Operaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formula_general.resx">
+      <DependentUpon>Formula_general.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Operaciones.resx">
       <DependentUpon>Form_Operaciones.cs</DependentUpon>

@@ -16,7 +16,7 @@ namespace ProgramacionOrientadaObjetos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Operaciones());
+            Application.Run(new Form1());
         }
     }
 }

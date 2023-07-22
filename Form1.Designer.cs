@@ -38,6 +38,7 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.práctica4FibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -73,6 +74,7 @@
             this.práctica1ToolStripMenuItem,
             this.práctica2ToolStripMenuItem,
             this.práctica3ToolStripMenuItem,
+            this.práctica4FibonacciToolStripMenuItem,
             this.toolStripSeparator1,
             this.toolStripMenuItem1});
             this.prácticasToolStripMenuItem.Name = "prácticasToolStripMenuItem";
@@ -99,7 +101,8 @@
             // 
             this.práctica3ToolStripMenuItem.Name = "práctica3ToolStripMenuItem";
             this.práctica3ToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
-            this.práctica3ToolStripMenuItem.Text = "Práctica 3";
+            this.práctica3ToolStripMenuItem.Text = "Práctica 3 - Fórmula general (2do grado)";
+            this.práctica3ToolStripMenuItem.Click += new System.EventHandler(this.práctica3ToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -123,6 +126,13 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // práctica4FibonacciToolStripMenuItem
+            // 
+            this.práctica4FibonacciToolStripMenuItem.Name = "práctica4FibonacciToolStripMenuItem";
+            this.práctica4FibonacciToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.práctica4FibonacciToolStripMenuItem.Text = "Práctica 4 - Fibonacci";
+            this.práctica4FibonacciToolStripMenuItem.Click += new System.EventHandler(this.práctica4FibonacciToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -155,6 +165,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem práctica4FibonacciToolStripMenuItem;
     }
 }
 
