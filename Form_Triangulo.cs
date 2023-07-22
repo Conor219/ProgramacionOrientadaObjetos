@@ -29,15 +29,11 @@ namespace ProgramacionOrientadaObjetos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("El triágulo es:");
-            //MessageBox.Show(textBox1.Text + " " + textBox2.Text + " " + textBox3.Text);
-            //MessageBox.Show(textBox1.Text + textBox2.Text + textBox3.Text);
             try
             {
                 float lado1 = float.Parse(textBox1.Text);
                 float lado2 = float.Parse(textBox2.Text);
                 float lado3 = float.Parse(textBox3.Text);
-                //MessageBox.Show((lado1 + lado2 + lado3).ToString(), "Resultado");
                 if (lado1 > 0 && lado2 > 0 && lado3 > 0)
                 {
                     float mayor = lado1;
@@ -50,36 +46,30 @@ namespace ProgramacionOrientadaObjetos
 
                     if (mayor <= (lado1 + lado2 + lado3 - mayor))
                     {
-                        //MessageBox.Show("Con estas medidas SÍ es posible formar un triángulo");
                         
                         if (lado1 == lado2 && lado1 == lado3)
                         {
-                            //MessageBox.Show("Es un triángulo equilátero", "Equilátero");
                             label5.Text = "Es un triángulo equilátero";
                         }
 
                         else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3)
                         {
-                            //MessageBox.Show("Es un triángulo escaleno", "Escaleno");
                             label5.Text = "Es un triángulo escaleno";
                         }   
                         else
                         {
-                            //MessageBox.Show("Es un triángulo isosceles", "Isosceles");
                             label5.Text = "Es un triángulo isosceles";
                         }
                     }
                     else
                     {
-                        //MessageBox.Show("Con estas medidas NO es posible formar un triágunlo");
-                        label5.Text = "Con estas medidas NO es posible formar un triágunlo";
+                        label5.Text = "Con estas medidas NO es posible \n formar un triágunlo";
                     }
                     
                 }
                 else
                 {
-                    //MessageBox.Show("Con esas medidas NO es posible formar un triángulo", "Error");
-                    label5.Text = "Con estas medidas NO es posible formar un triágunlo";
+                    label5.Text = "Con estas medidas NO es posible \n formar un triágunlo";
                 }
             }catch(Exception Error) {
                 MessageBox.Show("Error", "Errorsito", MessageBoxButtons.OK,
