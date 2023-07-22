@@ -64,6 +64,12 @@
     <Compile Include="Form_Fibonacci.Designer.cs">
       <DependentUpon>Form_Fibonacci.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_ilusiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ilusiones.Designer.cs">
+      <DependentUpon>Form_ilusiones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Operaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formula_general.resx">
       <DependentUpon>Formula_general.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Fibonacci.resx">
+      <DependentUpon>Form_Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ilusiones.resx">
+      <DependentUpon>Form_ilusiones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Operaciones.resx">
       <DependentUpon>Form_Operaciones.cs</DependentUpon>

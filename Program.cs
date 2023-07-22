@@ -16,7 +16,8 @@ namespace ProgramacionOrientadaObjetos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //En la siguiente línea se define la forma de inicio
+            Application.Run(new Form_ilusiones());
         }
     }
 }
