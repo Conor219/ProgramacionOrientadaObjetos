@@ -100,7 +100,8 @@
             // práctica3ToolStripMenuItem
             // 
             this.práctica3ToolStripMenuItem.Name = "práctica3ToolStripMenuItem";
-            this.práctica3ToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.práctica3ToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D3)));
+            this.práctica3ToolStripMenuItem.Size = new System.Drawing.Size(412, 26);
             this.práctica3ToolStripMenuItem.Text = "Práctica 3 - Fórmula general (2do grado)";
             this.práctica3ToolStripMenuItem.Click += new System.EventHandler(this.práctica3ToolStripMenuItem_Click);
             // 
@@ -130,7 +131,8 @@
             // práctica4FibonacciToolStripMenuItem
             // 
             this.práctica4FibonacciToolStripMenuItem.Name = "práctica4FibonacciToolStripMenuItem";
-            this.práctica4FibonacciToolStripMenuItem.Size = new System.Drawing.Size(380, 26);
+            this.práctica4FibonacciToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D4)));
+            this.práctica4FibonacciToolStripMenuItem.Size = new System.Drawing.Size(412, 26);
             this.práctica4FibonacciToolStripMenuItem.Text = "Práctica 4 - Fibonacci";
             this.práctica4FibonacciToolStripMenuItem.Click += new System.EventHandler(this.práctica4FibonacciToolStripMenuItem_Click);
             // 
