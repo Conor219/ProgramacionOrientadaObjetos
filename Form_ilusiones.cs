@@ -57,12 +57,7 @@ namespace ProgramacionOrientadaObjetos
             int w = pictureBox2.Width;
             int h = pictureBox2.Height;
 
-            for (int i = 0; i < w; i += 10)
-            {
-
-            e.Graphics.DrawLine(rojo, i, 0, i, h);
-            
-            }
+            for (int i = 0; i < w; i += 10) e.Graphics.DrawLine(rojo, i, 0, i, h);
 
         }
 
@@ -70,14 +65,8 @@ namespace ProgramacionOrientadaObjetos
         {
 
             int w = pictureBox3.Width;
-            int h = pictureBox3.Height;
 
-            for (int i = 0; i < w; i += 10)
-            {
-
-                e.Graphics.DrawLine(rojo, 0, i, w, i);
-
-            }
+            for (int i = 0; i < w; i += 10) e.Graphics.DrawLine(rojo, 0, i, w, i);
 
         }
 
