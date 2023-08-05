@@ -58,6 +58,12 @@
     <Compile Include="Formula_general.Designer.cs">
       <DependentUpon>Formula_general.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_encuesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_encuesta.Designer.cs">
+      <DependentUpon>Form_encuesta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Fibonacci.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Form_ilusiones.Designer.cs">
       <DependentUpon>Form_ilusiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Ilusiones2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ilusiones2.Designer.cs">
+      <DependentUpon>Form_Ilusiones2.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Operaciones.cs">
       <SubType>Form</SubType>
@@ -90,11 +102,17 @@
     <EmbeddedResource Include="Formula_general.resx">
       <DependentUpon>Formula_general.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_encuesta.resx">
+      <DependentUpon>Form_encuesta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Fibonacci.resx">
       <DependentUpon>Form_Fibonacci.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_ilusiones.resx">
       <DependentUpon>Form_ilusiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Ilusiones2.resx">
+      <DependentUpon>Form_Ilusiones2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Operaciones.resx">
       <DependentUpon>Form_Operaciones.cs</DependentUpon>

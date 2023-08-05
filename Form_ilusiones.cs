@@ -84,6 +84,50 @@ namespace ProgramacionOrientadaObjetos
             int w = pictureBox6.Width;
 
             for (int i = 0; i < w*2; i += 10) e.Graphics.DrawLine(colores[0], w-i, 0, w, i);
+            for (int i = 0; i < w*2; i += 10) e.Graphics.DrawLine(colores[0], w-i, 0, w, i);
+            for (int i = 0; i < w*2; i += 10) e.Graphics.DrawLine(colores[0], w-i, 0, w, i);
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Paint(object sender, PaintEventArgs e)
+        {
+            int w = pictureBox7.Width;
+            int h = pictureBox7.Height;
+
+            for (int i = 0; i < w; i += 10)
+            {
+                e.Graphics.DrawLine(colores[0], i, 0, w/2, h/2);
+                e.Graphics.DrawLine(colores[0], i, h, w/2, h/2);
+            }
+            
+        }
+
+        private void pictureBox8_Paint(object sender, PaintEventArgs e)
+        {
+            int w = pictureBox7.Width;
+            int h = pictureBox7.Height;
+
+            for (int i = 0; i < w/2; i += 10)
+            {
+                e.Graphics.DrawLine(colores[0], i, h/2, w/2, h/2 - i);
+                e.Graphics.DrawLine(colores[0], w-i, h/2, w/2, h/2 - i);
+                e.Graphics.DrawLine(colores[0], w-i, h/2, w/2, h/2 + i);
+                e.Graphics.DrawLine(colores[0], i, h/2, w/2, h/2 + i);
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
