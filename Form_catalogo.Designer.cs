@@ -112,6 +112,8 @@
             this.textBox3.Size = new System.Drawing.Size(191, 22);
             this.textBox3.TabIndex = 20;
             this.textBox3.Text = "50";
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label3
             // 
@@ -146,6 +148,7 @@
             this.textBox1.Size = new System.Drawing.Size(191, 22);
             this.textBox1.TabIndex = 16;
             this.textBox1.Text = "202874";
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // label5
             // 
