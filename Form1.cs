@@ -56,5 +56,25 @@ namespace ProgramacionOrientadaObjetos
         {
             new Form_Fibonacci().ShowDialog();
         }
+
+        private void práctica5IlusionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form_ilusiones().ShowDialog();
+        }
+
+        private void práctica6Ilusiones2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form_Ilusiones2().ShowDialog();
+        }
+
+        private void práctica7EncuestaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form_encuesta().ShowDialog();
+        }
+
+        private void práctica8CatálogoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Form_catalogo().ShowDialog();
+        }
     }
 }

@@ -58,6 +58,12 @@
     <Compile Include="Formula_general.Designer.cs">
       <DependentUpon>Formula_general.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_catalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_catalogo.Designer.cs">
+      <DependentUpon>Form_catalogo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_encuesta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formula_general.resx">
       <DependentUpon>Formula_general.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_catalogo.resx">
+      <DependentUpon>Form_catalogo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_encuesta.resx">
       <DependentUpon>Form_encuesta.cs</DependentUpon>
