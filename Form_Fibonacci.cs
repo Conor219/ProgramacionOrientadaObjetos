@@ -27,12 +27,12 @@ namespace ProgramacionOrientadaObjetos
                 int num2 = 1;
                 int fibonacci;
 
-                label5.Text = "Fibonacci = " + num1 + ", " + num2;
+                richTextBox1.Text = "Fibonacci = " + num1 + ", " + num2;
 
                 for (int i = 2; num1 + num2 <= limite; i++)
                 {
                     fibonacci = num1 + num2;
-                    label5.Text += ", " + fibonacci;
+                    richTextBox1.Text += ", " + fibonacci;
 
                     num1 = num2;
                     num2 = fibonacci;
