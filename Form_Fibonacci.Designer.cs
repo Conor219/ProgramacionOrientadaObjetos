@@ -77,11 +77,12 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Window;
             this.richTextBox1.Location = new System.Drawing.Point(15, 90);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(366, 310);
             this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "Fibonacci = AQUÍ APARECERÁ EL RESULTADO";
+            this.richTextBox1.Text = "AQUÍ APARECERÁ EL RESULTADO";
             // 
             // Form_Fibonacci
             // 

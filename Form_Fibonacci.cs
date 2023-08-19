@@ -23,19 +23,17 @@ namespace ProgramacionOrientadaObjetos
             try
             {
                 int limite = Convert.ToInt32(textBox1.Text);
-                int num1 = 0;
-                int num2 = 1;
-                int fibonacci;
+                int a = 0, b = 1, c = 0;
 
-                richTextBox1.Text = "Fibonacci = " + num1 + ", " + num2;
+                richTextBox1.Clear();
 
-                for (int i = 2; num1 + num2 <= limite; i++)
+                for (; c <= limite;)
                 {
-                    fibonacci = num1 + num2;
-                    richTextBox1.Text += ", " + fibonacci;
-
-                    num1 = num2;
-                    num2 = fibonacci;
+                    c = a + b;
+                    if (c <= limite)
+                        richTextBox1.Text += a+" + " + b + " = " + c + "\n";
+                    a = b;
+                    b = c;
                 }
             }
             catch (Exception Error)
