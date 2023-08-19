@@ -36,13 +36,13 @@
             this.práctica2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.práctica3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.práctica4FibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.práctica5IlusionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.práctica6Ilusiones2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.práctica7EncuestaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.práctica8CatálogoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,10 +55,10 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(14, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(854, 24);
+            this.label1.Size = new System.Drawing.Size(854, 48);
             this.label1.TabIndex = 0;
             this.label1.Text = "Menú principal de las practicas realizadas en la materia Programación Orientada a" +
-    " Objetos\r\n";
+    " Objetos\r\nDaniel Antonio Attwell Pompa";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // menuStrip1
@@ -68,7 +68,7 @@
             this.prácticasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(962, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(962, 30);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -86,7 +86,7 @@
             this.toolStripSeparator1,
             this.toolStripMenuItem1});
             this.prácticasToolStripMenuItem.Name = "prácticasToolStripMenuItem";
-            this.prácticasToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.prácticasToolStripMenuItem.Size = new System.Drawing.Size(81, 26);
             this.prácticasToolStripMenuItem.Text = "Prácticas";
             // 
             // práctica1ToolStripMenuItem
@@ -121,29 +121,6 @@
             this.práctica4FibonacciToolStripMenuItem.Text = "Práctica 4 - Fibonacci";
             this.práctica4FibonacciToolStripMenuItem.Click += new System.EventHandler(this.práctica4FibonacciToolStripMenuItem_Click);
             // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(409, 6);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(412, 26);
-            this.toolStripMenuItem1.Text = "Salir";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(302, 76);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(394, 369);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // práctica5IlusionesToolStripMenuItem
             // 
             this.práctica5IlusionesToolStripMenuItem.Name = "práctica5IlusionesToolStripMenuItem";
@@ -175,6 +152,29 @@
             this.práctica8CatálogoToolStripMenuItem.Size = new System.Drawing.Size(412, 26);
             this.práctica8CatálogoToolStripMenuItem.Text = "Práctica 8 - Catálogo";
             this.práctica8CatálogoToolStripMenuItem.Click += new System.EventHandler(this.práctica8CatálogoToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(409, 6);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(412, 26);
+            this.toolStripMenuItem1.Text = "Salir";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(302, 76);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(394, 369);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 

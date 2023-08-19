@@ -23,6 +23,12 @@ namespace ProgramacionOrientadaObjetos
             try
             {
                 int limite = Convert.ToInt32(textBox1.Text);
+                
+                if (limite < 0)
+                {
+                    MessageBox.Show("Los valores negativos no son válidos en esta serie.");
+                }
+
                 int a = 0, b = 1, c = 0;
 
                 richTextBox1.Clear();
