@@ -17,7 +17,7 @@ namespace ProgramacionOrientadaObjetos
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //En la siguiente línea se define la forma de inicio
-            Application.Run(new Form_catalogo());
+            Application.Run(new Formula_general());
         }
     }
 }
