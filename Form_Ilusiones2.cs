@@ -29,10 +29,10 @@ namespace ProgramacionOrientadaObjetos
 
             for (int i = 0; i < w / 2; i += 10)
             {
-                e.Graphics.DrawLine(colores[0], 0, i, i, h / 2);
+                e.Graphics.DrawLine(colores[0], 0, i, i, h/2);
                 e.Graphics.DrawLine(colores[0], i, 0, w / 2, i);
 
-                e.Graphics.DrawLine(colores[0], w / 2 + i, 0, w / 2, h / 2 - i);
+                e.Graphics.DrawLine(colores[0], w/2 + i, 0, w/2, h/ 2 - i);
                 e.Graphics.DrawLine(colores[0], w, i, w - i, h / 2);
 
                 e.Graphics.DrawLine(colores[0], 0, h / 2 + i, w / 2 - i, h / 2);
