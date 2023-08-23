@@ -27,19 +27,19 @@ namespace ProgramacionOrientadaObjetos
             int w = pictureBox1.Width;
             int h = pictureBox1.Height;
 
-            for (int i = 0; i < w / 2; i += 10)
+            for (int i = 0; i < w/2; i += 10)
             {
                 e.Graphics.DrawLine(colores[0], 0, i, i, h/2);
-                e.Graphics.DrawLine(colores[0], i, 0, w / 2, i);
+                e.Graphics.DrawLine(colores[0], i, 0, w/2, i);
 
-                e.Graphics.DrawLine(colores[0], w/2 + i, 0, w/2, h/ 2 - i);
-                e.Graphics.DrawLine(colores[0], w, i, w - i, h / 2);
+                e.Graphics.DrawLine(colores[0], w/2 + i, 0, w/2, h/2 - i);
+                e.Graphics.DrawLine(colores[0], w, i, w - i, h/2);
 
-                e.Graphics.DrawLine(colores[0], 0, h / 2 + i, w / 2 - i, h / 2);
-                e.Graphics.DrawLine(colores[0], i, h, w / 2, h - i);
+                e.Graphics.DrawLine(colores[0], 0, h/2 + i, w/2 - i, h/2);
+                e.Graphics.DrawLine(colores[0], i, h, w/2, h - i);
 
-                e.Graphics.DrawLine(colores[0], w / 2, h / 2 + i, w / 2 + i, h);
-                e.Graphics.DrawLine(colores[0], w, h / 2 + i, w / 2 + i, h / 2);
+                e.Graphics.DrawLine(colores[0], w/2, h/2 + i, w/2 + i, h);
+                e.Graphics.DrawLine(colores[0], w, h/2 + i, w/2 + i, h/2);
             }
         }
 
@@ -49,7 +49,7 @@ namespace ProgramacionOrientadaObjetos
             int h = pictureBox2.Height;
 
             for (int i = 0; i < w; i += 10)
-                e.Graphics.DrawEllipse(colores[4], ((w - i) / 2), ((h - i) / 2), i, i);
+                e.Graphics.DrawEllipse(colores[4], ((w-i)/2), ((h-i)/2), i, i);
         }
 
         private void pictureBox3_Paint(object sender, PaintEventArgs e)
@@ -57,7 +57,7 @@ namespace ProgramacionOrientadaObjetos
             int w = pictureBox3.Width;
             int h = pictureBox3.Height;
 
-            for (int i = 0; i < w / 2; i += 10)
+            for (int i = 0; i < w/2; i += 10)
             {
                 e.Graphics.DrawLine(colores[2], w / 2, i, i, h - i);
                 e.Graphics.DrawLine(colores[2], w / 2, i, w - i, h - i);
@@ -71,14 +71,14 @@ namespace ProgramacionOrientadaObjetos
             int w = pictureBox4.Width;
             int h = pictureBox4.Height;
 
-            for (int i = 0; i <= w / 2 + 10; i += 10)
+            for (int i = 0; i <= w/2 + 10; i += 10)
             {
-                e.Graphics.DrawLine(colores[3], i, 0, w / 2, i);
-                e.Graphics.DrawLine(colores[3], i, h, w / 2, h - i);
-                e.Graphics.DrawLine(colores[3], w / 2 + i, 0, w / 2, h / 2 - i);
-                e.Graphics.DrawLine(colores[3], w / 2, h - i, w - i, h);
-                e.Graphics.DrawLine(colores[3], i, h - i, w / 2 - i, h / 2 - i);
-                e.Graphics.DrawLine(colores[3], w - i, h - i, w / 2 + i, h / 2 - i);
+                e.Graphics.DrawLine(colores[3], i, 0, w/2, i);
+                e.Graphics.DrawLine(colores[3], i, h, w/2, h - i);
+                e.Graphics.DrawLine(colores[3], w/2 + i, 0, w/2, h/2 - i);
+                e.Graphics.DrawLine(colores[3], w/2, h - i, w - i, h);
+                e.Graphics.DrawLine(colores[3], i, h - i, w/2 - i, h/2 - i);
+                e.Graphics.DrawLine(colores[3], w - i, h - i, w/2 + i, h/2 - i);
             }
         }
     }
